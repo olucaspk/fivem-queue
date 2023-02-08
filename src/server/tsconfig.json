@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "target": "ES2018",
+    "moduleResolution": "Node",
+    "module": "commonjs",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "types": ["@citizenfx/server", "@types/node"]
+  },
+  "experimentalDecorators": true,
+  "exclude": ["node_modules"]
+}

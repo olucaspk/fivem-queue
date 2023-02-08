@@ -1,0 +1,19 @@
+{
+  "name": "surge-queue",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "node ./src/scripts/build.js",
+    "watch": "node ./src/scripts/watch.js"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.10.0",
+    "axios": "^1.3.2",
+    "dotenv": "^16.0.3",
+    "esbuild": "^0.15.18",
+    "esbuild-plugin-fileloc": "^0.0.6"
+  },
+  "devDependencies": {
+    "prisma": "^4.10.0"
+  }
+}
